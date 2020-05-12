@@ -1,1 +1,1 @@
-devops-mini-course-homework
+# Front-end, портал для рыбаков "Рыбацкий остров"

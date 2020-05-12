@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background-color: darkslategray;
+  align-items: center;
+  border-bottom: 2px solid #ececec;
+  justify-content: space-around;
+  width: auto;
+  height: auto;
+}
+
+
+.header-logo {
+  display: flex;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-item {
+  font-size: 20px;
+  display: flex;
+  color: white;
+  padding: 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.news-board {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  width: auto;
+}
+
+.news-board-item {
+  width: 700px;
+  display: flex;
+  flex-flow: column;
+  border: 10px;
+  border-bottom: 1px solid #ececec;
+  padding: 15px 15px;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  justify-content: center;
+
+}
+
+.news-board-item-title {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.news-board-item-content {
+  font-size: 15px;
+}
+
+.news-board-item-pic {
+  width: 100%;
+}
+
+button {
+  background-color: darkslategrey;
+  padding: 5px 10px;
+  color:white;
+}
+
+.post-create-form {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+}
+
+.post-create-form-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.create-form {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;  
+}
