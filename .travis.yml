@@ -8,6 +8,3 @@ cache:
 script:
   - yarn test
   - CI=false yarn build
-
-after_success:
-  - cat ./coverage/lcov.info | ./node_modules/codecov.io/bin/codecov.io.js
