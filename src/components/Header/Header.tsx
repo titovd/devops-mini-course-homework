@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import IntroPic from '../../assets/images/intro-picture.jpg'
 
 const Header: React.FC = () => {
     return (
@@ -23,7 +22,7 @@ const Header: React.FC = () => {
                 </div>
             </div>
         </header>
-    )
+    );
 }
 
 export default Header;
