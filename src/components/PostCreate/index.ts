@@ -1,1 +1,1 @@
-export { default } from './PostCreate'
+export {default} from './PostCreate';

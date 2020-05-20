@@ -1,1 +1,1 @@
-export { default } from './NewsBoard'
+export {default} from './NewsBoard';
