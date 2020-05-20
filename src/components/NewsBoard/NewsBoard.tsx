@@ -1,10 +1,6 @@
 import React from 'react'
 import { IPost}  from '../../types/post'
-import { Link } from 'react-router-dom'
 import PostCard from '../PostCard'
-import spinningPic from '../../assets/images/spinning-pic.jpg'
-import kurskPic from '../../assets/images/kursk.jpg'
-import fishPic from '../../assets/images/fried-fish.jpg'
 
 const NewsBoard: React.FC = () => {
   const [posts, setPosts] = React.useState<IPost[]>([])

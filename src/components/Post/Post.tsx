@@ -1,9 +1,8 @@
 import React from 'react'
-import spinningPic from '../../assets/images/spinning-pic.jpg'
-import spinningPic1 from '../../assets/images/spinning-pic1.jpg'
-import spinningPic2 from '../../assets/images/spinning-pic2.jpg'
 import { IPost } from '../../types/post'
 
+
+const spinningPic = require('../../assets/images/spinning-pic.jpg')
 interface IPostProps {
     match: {
         params: {
@@ -41,9 +40,9 @@ const Post: React.FC<IPostProps> = (props) => {
                 <img className="news-board-item-pic" src={spinningPic} alt="Спиннинг"/>
                 <div className="news-board-item-content">
                 {description}
-                <img className="news-board-item-pic" src={spinningPic1} alt="Спиннинг"/>
+                <img className="news-board-item-pic" src={spinningPic} alt="Спиннинг"/>
                 {text}
-                <img className="news-board-item-pic" src={spinningPic2} alt="Спиннинг"/>
+                <img className="news-board-item-pic" src={spinningPic} alt="Спиннинг"/>
                 </div>
             </div>
         </section>

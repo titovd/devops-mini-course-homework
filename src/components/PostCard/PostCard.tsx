@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import spinningPic from '../../assets/images/spinning-pic.jpg'
+
+const spinningPic = require('../../assets/images/spinning-pic.jpg')
 
 interface IPostCard {
     title: string
